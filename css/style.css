@@ -1,5 +1,97 @@
+html
+{
+  margin: 0 0;
+}
+
 body
 {
-    color: red;
-    background: blue;
+  background-image: url("../images/back.jpeg"); /* image obtained from https://static.pexels.com/photos/68258/pexels-photo-68258.jpeg*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 0;
+  color: white;
+}
+
+.contentwrapper
+{
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid
+{
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.cell
+{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 15vmin;
+  flex: 1;
+  min-width: 30vw;
+  height: 28vh;
+}
+
+.grid-top
+{
+  flex: 1;
+  display: flex;
+  flex-flow: row;
+}
+
+.grid-centre
+{
+  flex: 1;
+  display: flex;
+  flex-flow: row;
+}
+
+.grid-bottom
+{
+  flex: 1;
+  display: flex;
+  flex-flow: row;
+}
+
+@keyframes bluecircle
+{
+
+}
+
+@keyframes pulse {
+	from { transform: none; }
+	50% { transform: scale(1.4); }
+	to { transform: none; }
+}
+
+.home:hover
+{
+  animation: pulse 1s infinite;
+  cursor: pointer;
+}
+
+.contact:hover
+{
+  animation: pulse 1s infinite;
+  cursor: pointer;
+}
+
+.cv:hover
+{
+  animation: pulse 1s infinite;
+  cursor: pointer;
+}
+
+.bio:hover
+{
+  animation: pulse 1s infinite;
+  cursor: pointer;
 }
