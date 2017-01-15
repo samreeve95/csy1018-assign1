@@ -72,26 +72,25 @@ body
 	to { transform: none; }
 }
 
-.home:hover
+.icon:hover
 {
   animation: pulse 1s infinite;
   cursor: pointer;
 }
 
-.contact:hover
+a.icon
 {
-  animation: pulse 1s infinite;
-  cursor: pointer;
+  color: white;
 }
 
-.cv:hover
+a:visited.icon
 {
-  animation: pulse 1s infinite;
-  cursor: pointer;
+  color: white;
 }
 
-.bio:hover
+.large
 {
-  animation: pulse 1s infinite;
-  cursor: pointer;
+  height: 100px;
+  text-align: left;
+  vertical-align: top;
 }
