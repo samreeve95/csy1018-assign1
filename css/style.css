@@ -1,3 +1,5 @@
+
+
 html
 {
   margin: 0 0;
@@ -93,4 +95,47 @@ a:visited.icon
   height: 100px;
   text-align: left;
   vertical-align: top;
+}
+
+.cvcont
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%
+}
+.cvtext
+{
+  width: 50%;
+  color: white;
+  opacity: 0.6;
+  background-color: black;
+  box-shadow: 10px 10px 20px black;
+}
+.cvtext p
+{
+  margin: 20px;
+}
+
+.biocont
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%
+}
+.biotext
+{
+  width: 50%;
+  color: white;
+  opacity: 0.5;
+  background-color: black;
+  box-shadow: 16px 16px 32px black;
+}
+.biotext p
+{
+  margin: 20px;
+  font-family: Serif;
 }
